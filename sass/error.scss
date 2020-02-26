@@ -1,0 +1,61 @@
+.error_card {
+
+}
+.error_card_content {
+    background-color: #ffffff;
+    padding: 36px;
+    margin-bottom: 20px;
+}
+.error_card_title {
+    text-align: center;
+    font-size: 32px;
+    color: #575757;
+    margin-bottom: 30px;
+}
+.error_card_text {
+    padding: 0 300px;
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+    margin-bottom: 20px;
+    @media (max-width: 1200px){
+        padding: 0 230px; 
+    }
+    @media (max-width: 992px) {
+        padding: 0 100px;
+    }
+    @media (max-width: 768px) {
+        padding: 0 50px;
+    }
+    @media (max-width: 576px) {
+        padding: 0 25px;
+    }
+}
+.error_card_photo {
+    background-image: url(/img/error.jpg);
+    min-width: 450px;
+    min-height: 300px;
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    @media (max-width: 576px) {
+        min-width: 250px;
+        min-height: 200px;
+    }
+}
+.error_go_main { 
+    display: flex;
+    justify-content: center; 
+    .error_go_main_button {
+        min-width: 350px;
+        height: 50px;
+        border: solid 2px #f44336;
+        background-color: #ffffff;
+        color: #f44336;
+        font-size: 18px;
+        @media (max-width: 576px) {
+            min-width: 300px;
+        }
+    }
+}

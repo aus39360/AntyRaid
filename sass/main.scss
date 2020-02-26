@@ -1,0 +1,211 @@
+main {
+    background-color: #e8e8e8;
+    padding-top: 26px;
+}
+.main_post {
+    background-image: url(/img/omon.jpg);
+    padding: 150px 0;
+    margin-bottom: 50px;
+    @media (max-width: 768px) {
+        padding: 130px 0;
+        margin-bottom: 20px;
+    }
+    @media (max-width: 576px) { 
+        padding: 100px 0;
+    }
+}
+.main_text {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+    .main_text_heading {
+        color: #ffffff;
+        font-size: 38px;
+        font-weight: 500;
+        @media (max-width: 576px) { 
+            font-size: 34px;
+            font-weight: 450;
+        }
+    }
+    .main_text_paragraph {
+        color: #ffffff;
+        font-family: Georgia;
+        font-size: 26px;
+    }
+}
+
+
+
+.news_list {
+
+}
+.photo_card {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    .photo {
+        background-image: url(/img/omon2.jpg);
+        min-width: 540px;
+        min-height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: #f44336 3px solid;
+        @media (max-width: 1200px) {
+            min-width: 450px;
+        }
+        @media (max-width: 992px) {
+            min-width: 200px;
+            min-height: 200px;
+        }
+    }
+
+}
+.text_card {
+    padding: 20px;
+    @media (max-width: 1200px) {
+        padding: 10px;
+    }
+    .date {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a5a5a5;
+        margin-bottom: 20px;
+    }
+    .heading_text {
+        font-size: 24px;
+        font-weight: 500;
+        color: #2b2b2b;
+        margin-bottom: 17px;
+    }
+}
+
+.text_paragraph {
+    font-size: 16px;
+    color: #2b2b2b;   
+    margin-bottom: 100px;
+    @media (max-width: 1200px) {
+        margin-bottom: 70px;
+    }
+}
+.hashtags_in_card {
+
+    .hashtags_in_card-items {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a5a5a5;
+        &:hover  {
+            color: #f44336;
+            border-bottom: #f44336;
+        }
+    }
+}
+
+
+
+.photo_card_min {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    .photo_min {
+        background-image: url(/img/omon2.jpg);
+        min-width: 209px;
+        min-height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: #f44336 3px solid;
+    }
+}
+.text_card_min {
+    padding: 20px;
+    @media (max-width: 1200px) {
+        padding: 10px;
+    }
+    .date_min {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a5a5a5;
+        margin-bottom: 20px;
+    }
+    .heading_text_min {
+        font-size: 24px;
+        font-weight: 500;
+        color: #2b2b2b;
+        margin-bottom: 17px;
+        @media (max-width: 1200px) {
+            font-size: 20px;
+        }
+    }
+}
+.text_paragraph_min {
+    font-size: 16px;
+    color: #2b2b2b;   
+    margin-bottom: 100px;
+    @media (max-width: 1200px) {
+        margin-bottom: 70px;
+    }
+}
+
+
+
+.photo_card_big {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    .photo_big {
+        background-image: url(/img/omon.jpg);
+        min-width: 200px;
+        min-height: 250px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: #f44336 3px solid;
+    }
+}
+.text_card_big {
+    padding: 20px;
+    @media (max-width: 1200px) {
+        padding: 10px;
+    }
+    .date_big {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a5a5a5;
+        margin-bottom: 20px;
+    }
+    .heading_text_big {
+        font-size: 24px;
+        font-weight: 500;
+        color: #2b2b2b;
+        margin-bottom: 17px;
+    }
+}
+.text_paragraph_big {
+    font-size: 16px;
+    color: #2b2b2b;   
+    margin-bottom: 100px;
+    @media (max-width: 1200px) {
+        margin-bottom: 70px;
+    }
+    @media (max-width: 992px) {
+        margin-bottom: 114px;
+    }
+}
+
+
+
+
+.all_news {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px 0;
+    .all_news_button {
+        min-width: 350px;
+        height: 50px;
+        border: solid 2px #f44336;
+        background-color: #ffffff;
+        color: #f44336;
+        font-size: 18px;
+        @media (max-width: 576px) { 
+            min-width: 280px;
+        }
+    }
+}

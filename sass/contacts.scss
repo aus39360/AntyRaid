@@ -1,0 +1,111 @@
+.wrapper_form {
+    width: 100%;
+    margin: 0 15px 25px 15px;
+    padding: 50px;
+    background-color: #ffffff;
+    display: flex;
+    @media (max-width: 768px) {
+        padding: 25px;
+    }
+    @media (max-width: 576px) {
+        flex-wrap: wrap;
+        padding: 25px;
+    }
+}
+.form_text {
+    .form_text_heading {
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+    .form_text_paragraph {
+        font-size: 16px;
+        color: #4f4f4f;
+        margin-bottom: 25px;
+      }
+    .form_text_tel,
+    .form_text_mail {
+        font-size: 16px;
+        color: #2b2b2b;
+    }
+}
+.form_page_contacts {
+    display: flex;
+    flex-direction: column;
+}
+.form_name_email {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+    .form_name,
+    .form_email {
+        width: 45%;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+.form-control {
+    background-color: #eeeeee;
+    border: none;
+    margin-bottom: 25px;
+} 
+.btn.btn-primary {
+    width: 173px;
+    height: 42px;
+    border: solid 2px #7a7a7a;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #6e6e6e;
+}
+
+
+
+.connection {
+
+}
+.connection_links {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 35px 150px;
+    margin-bottom: 25px;
+    @media (max-width: 992px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.connection_link {
+    display: flex;
+    .connection_link_tw,
+    .connection_link_fb,
+    .connection_link_vk {
+        font-size: 15px;
+        color: #7d7d7d;
+    }
+    @media (max-width: 992px) {
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+}
+.connection_link_icon_tw,
+.connection_link_icon_fb,
+.connection_link_icon_vk {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.connection_link_icon_tw {
+    background-image: url(/img/tw.png);
+}
+.connection_link_icon_fb {
+    background-image: url(/img/fb.png);
+}   
+.connection_link_icon_vk {
+    background-image: url(/img/vk.png);
+}

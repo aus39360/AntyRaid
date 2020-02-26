@@ -1,0 +1,60 @@
+.form-media {
+    display: flex;
+    margin-bottom: 25px;
+    &__button-photo,
+    &__button-video {
+        font-size: 24px;
+        font-weight: 500;
+        border: none;
+        padding: 20px;
+    }
+    &__button-photo {
+        width: 67%;
+        background-color: #f44c40;
+        color: #ffffff;
+    }
+    &__button-video {
+        width: 33%;
+        background-color: #ffffff;
+        color: #f44c40;
+    }
+}
+
+.album-card {
+    margin-bottom: 25px;
+    &__photo-heading {
+        background-image: url(/img/media.jpg);
+        min-height: 275px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: #f44c40 solid 3px;
+        padding: 25px;
+        font-size: 28px;
+        font-weight: 500;
+        color: #ffffff;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__date {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        font-size: 18px;
+        color: #2b2b2b;
+        background-color: #ffffff;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .form-media {
+        flex-wrap: wrap;
+        &__button-photo,
+        &__button-video {
+            width: 100%;
+        }
+    }
+}
