@@ -13,3 +13,12 @@ menuBtn.addEventListener('click', () => {
   }
 });
 
+let mediaButtons = document.querySelectorAll('.form-media__button');
+
+for(let mediaButton of mediaButtons){
+  mediaButton.addEventListener('click', () =>{
+    mediaButtons.forEach(i=> i.classList.remove('form-media__button--active'))
+    mediaButton.classList.add('form-media__button--active');
+  });
+  
+}
