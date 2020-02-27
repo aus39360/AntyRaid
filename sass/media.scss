@@ -1,22 +1,20 @@
 .form-media {
     display: flex;
     margin-bottom: 25px;
-    &__button-photo,
-    &__button-video {
+    &__button {
         font-size: 24px;
         font-weight: 500;
         border: none;
         padding: 20px;
-    }
-    &__button-photo {
-        width: 67%;
-        background-color: #f44c40;
-        color: #ffffff;
-    }
-    &__button-video {
+        cursor: pointer;
         width: 33%;
         background-color: #ffffff;
         color: #f44c40;
+        &--active {
+            width: 67%;
+            background-color: #f44c40;
+            color: #ffffff;
+        }
     }
 }
 
