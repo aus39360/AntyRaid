@@ -1,0 +1,118 @@
+.text-we-help {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+    &__heading {
+        padding: 25px;
+        font-size: 28px;
+        font-weight: 300;
+        color: #2b2b2b;
+    }
+    &__description {
+        padding: 0 160px 70px 160px;
+        font-size: 16px;
+        line-height: 1.69;
+        color: #262626;
+        @media (max-width: 991.98px) {
+            padding: 0 50px 50px 50px;
+        }
+        @media (max-width: 575.98px) {
+            padding: 0 20px 50px 20px;
+        }
+    }
+}
+
+.team-list {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+    &__heading {
+        font-size: 28px;
+        font-weight: 300;
+        color: #2b2b2b;
+        padding: 25px;
+    }
+}
+.card-list {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 767.98px) {
+        flex-direction: row;
+    }
+    @media (max-width: 576px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.first-line,
+.second-line {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px 25px 150px;
+    @media (max-width: 991.98px) {
+        padding: 0 50px 25px 50px;
+    }
+    @media (max-width: 767.98px) {
+        display: block;
+        padding: 0 45px 25px 45px;
+    }
+}
+.cutaway {
+    &__photo {
+        background-image: url(/img/zem.jpg);
+        border-radius: 100px;
+        box-shadow: 0 0 7px #666;
+        width: 120px;
+        height: 120px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 500;
+        color: #262626;
+    }
+    &__profession {
+        font-size: 14px;
+        color: #262626;
+    }
+    &__mail {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+}
+
+
+.partners-list {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+    &__heading {
+        padding: 25px;
+    }
+}
+.partners-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 60px 80px;
+    @media (max-width: 1199.98px){
+        padding: 0 40px 60px 40px;
+    }
+    @media (max-width: 991.98px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    &__logotype {
+        background-image: url(/img/pornhub.jpg);
+        box-shadow: 0 0 7px #666;
+        width: 173px;
+        height: 125px;
+        margin: 5px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

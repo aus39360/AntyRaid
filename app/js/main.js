@@ -1,6 +1,6 @@
 const menuBtn = document.querySelector('.menu-btn');
 const menuBtnTest = document.querySelector('.button_test');
-let menuOpen =false;
+let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if(!menuOpen) {
     menuBtnTest.classList.remove('button-test');
@@ -22,3 +22,7 @@ for(let mediaButton of mediaButtons){
   });
   
 }
+
+$('.form-media__button').on('click', () => {
+  $(this).toggleClass('form-media__button--active')
+})
