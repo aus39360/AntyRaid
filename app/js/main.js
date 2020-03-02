@@ -22,7 +22,3 @@ for(let mediaButton of mediaButtons){
   });
   
 }
-
-$('.form-media__button').on('click', () => {
-  $(this).toggleClass('form-media__button--active')
-})

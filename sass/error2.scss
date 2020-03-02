@@ -1,0 +1,34 @@
+.error2-categories {
+    margin-bottom: 25px;
+}
+
+.categories-wrapper {
+    background-color: #ffffff;
+    padding: 30px;
+}
+.categories-heading {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #575757;
+}
+
+.categories-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__link {
+        display: inline-block;
+        margin: 0 25px 25px 0;
+        padding: 11px 25px;
+        border: 2px solid #f44336;
+        font-size: 16px;
+        font-weight: 500;
+        color: #f44336;
+        cursor: pointer;
+    }
+}
+
+.error2-categories2 {
+    padding-bottom: 25px;
+}
