@@ -39,6 +39,14 @@ footer {
         justify-content: space-around;
         width: 100%;
     }
+    @media (max-width: 575.98px) {
+        justify-content: flex-end;
+    }
+    .mail_bottom {
+        @media (max-width: 575.98px) {
+            display: none;
+        }
+    }
 }
 
 .menu_bottom {
